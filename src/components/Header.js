@@ -18,7 +18,7 @@ export default function Header() {
           <Link href={'/about'}>About</Link>
         </li>
       </ul>
-      <Link href={'/'} className='flex gap-1 items-center gap-4'>
+      <Link href={'/'} className='flex items-center gap-4'>
       <DarkModeSwitch />
         <span className='text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg'>
           IMDb
